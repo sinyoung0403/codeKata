@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/codeKata.iml" filepath="$PROJECT_DIR$/.idea/codeKata.iml" />
       <module fileurl="file://$PROJECT_DIR$/level01/level01.iml" filepath="$PROJECT_DIR$/level01/level01.iml" />
       <module fileurl="file://$PROJECT_DIR$/level02/level02.iml" filepath="$PROJECT_DIR$/level02/level02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/level3/level3.iml" filepath="$PROJECT_DIR$/level3/level3.iml" />
     </modules>
   </component>
 </project>
