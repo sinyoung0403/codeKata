@@ -1,13 +1,12 @@
 class Solution {
     public int[] solution(int n, int m) {
-        int gcd = 1;
+        int[] arr = new int[2];
         for (int i = 1; i <= Math.max(n,m); i++ ) {
             if ( n % i == 0 && m % i == 0) {
-                gcd = i;
+                arr[0] = i;
             }
         }
-        int lcm  = (n*m) / gcd;
-        int[] answer = {gcd,lcm};
-        return answer;
+        arr[1]  = (n*m) / arr[0];
+        return arr;
     }
 }
